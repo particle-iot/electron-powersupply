@@ -12,7 +12,7 @@ Things get a little interesting when you consider that 2G and 3G power requireme
 
 **Potential setup for the power unit:**
 
-![](https://github.com/spark/electron-power/blob/master/electron-power-blockdia.png)
+![](https://github.com/spark/electron-powersupply/blob/master/electron-power-blockdia.png)
 
 **Requirements for the PMC:**
  - Programmable input current limit
