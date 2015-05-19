@@ -1,6 +1,25 @@
 Electron Power - project log
 ---
 
+**May 19, 2015:**
+Maker Faire 2015 was amazing! We are now [Particle!](http://blog.particle.io/2015/05/13/spark-is-now-particle/)
+
+During the craziness of this event, I was still able to make some progress in the Electron domain. There are now two power supply test boards routed up and ready for the fab house. The BQ24298 was mentioned in the previous update, the new one is based around the Maxim MAX8606 which seems to be more widely available compared to the TI variant. I have also included a 3V3 LDO from Richtek, RT9020-33GB, for powering up the microcontroller. 
+
+![](https://github.com/spark/electron-powersupply/blob/master/images/max8606-pcb.png)
+
+We are currently looking into a few 3V3 regulators that will power the micro in the second stage. 
+
+LDO:
+- RT9020
+- TPS735
+- MAX8902
+
+Buck-Boost:
+- TPS63031
+- TPS63051
+- RT6150A/B 
+
 **May 6, 2015:**
 
 Designed the PCB for testing the BQ24298 today. I left enough proto area for me to add a buck-boost regulator on this board later when I get to it.
