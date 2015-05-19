@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -152,6 +152,30 @@
 <wire x1="2.54" y1="62.23" x2="0" y2="59.69" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="59.69" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
+<text x="13.97" y="26.67" size="1.016" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="9.652" y="39.37" size="1.016" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="14.732" y="29.21" size="1.016" layer="21" font="vector" ratio="15" align="center">+VBAT</text>
+<text x="10.668" y="35.814" size="1.016" layer="21" font="vector" ratio="15" align="center">+VBAT</text>
+<text x="25.908" y="38.1" size="1.016" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="23.368" y="32.004" size="1.016" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="19.558" y="40.386" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">GND</text>
+<text x="17.018" y="40.64" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">SYS</text>
+<text x="25.4" y="35.56" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">+3V3</text>
+<text x="23.368" y="29.21" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">SYS</text>
+<text x="22.86" y="24.13" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">+3V3</text>
+<text x="23.368" y="21.844" size="1.016" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="24.638" y="19.05" size="1.016" layer="21" font="vector" ratio="15" align="center-right">!POK</text>
+<text x="24.638" y="16.51" size="1.016" layer="21" font="vector" ratio="15" align="center-right">!CHG</text>
+<text x="24.638" y="13.97" size="1.016" layer="21" font="vector" ratio="15" align="center-right">!EN1</text>
+<text x="24.638" y="11.43" size="1.016" layer="21" font="vector" ratio="15" align="center-right">!EN2</text>
+<text x="24.638" y="8.89" size="1.016" layer="21" font="vector" ratio="15" align="center-right">VL</text>
+<text x="24.384" y="6.35" size="1.016" layer="21" font="vector" ratio="15" align="center-right">!TMR</text>
+<text x="14.478" y="8.382" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">GND</text>
+<text x="18.288" y="8.382" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">GND</text>
+<text x="11.938" y="9.652" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">THM</text>
+<text x="20.828" y="10.414" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">SETI</text>
+<text x="9.144" y="5.588" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">GND</text>
+<text x="9.144" y="11.938" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-right">+VIN</text>
 </plain>
 <libraries>
 <library name="maxim">
